@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class AreaOfRectangle {
+	public static void main(String[] args){
+		
+		Scanner in = new Scanner(System.in);
+		int a, b, area;
+		System.out.print("Enter side a: ");
+		a = in.nextInt();
+		System.out.print("Enter side b: ");
+		b = in.nextInt();
+		System.out.println("Area = " + (a * b));	
+		
+	}
+
+}
